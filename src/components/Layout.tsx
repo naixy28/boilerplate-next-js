@@ -7,6 +7,8 @@ type Props = {
   title?: string
 }
 
+console.log({ x: 1, y: 2, z: 2 })
+
 const Layout = ({ children, title = 'This is the default title' }: Props) => (
   <div>
     <Head>
